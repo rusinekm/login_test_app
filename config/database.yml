@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: user_log_test_development
+  pool: 5
+  socket: /var/run/postgresql
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: user_log_test_test
+  pool: 5
+  socket: /var/run/postgresql
+
+production:
+    adapter: postgresql
+    encoding: unicode
+    database: user_log_test_production
+    pool: 5
+    socket: /var/run/postgresql

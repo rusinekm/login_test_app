@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 3.0.2
+
+Documentation:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Exclude:
+    - 'bin/bundle'
+Metrics/CyclomaticComplexity:
+  Max: 9
+
+Metrics/MethodLength:
+  Max: 13
+
+Metrics/AbcSize:
+  Max: 19
+
+Metrics/PerceivedComplexity:
+  Max: 9
+
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
+  
+Layout/LineLength:
+  Max: 198
