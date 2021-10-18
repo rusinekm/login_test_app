@@ -1,0 +1,21 @@
+.logout{
+  margin-top: 10%;
+  margin-bottom: 15%;
+
+  width: 50%;
+  margin-left: 23%;
+  height: 400px;
+  background-color: #e3c099;
+  border: 3px #ffc166 solid;
+  border-radius: 20px;
+}
+.logout_button{
+  margin-top: 30%;
+  margin-left: 43%;
+}
+#logout{
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ffc166;
+  border: 1px sold #000;
+}

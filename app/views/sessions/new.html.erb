@@ -1,20 +1,24 @@
 <br>
 <br>
-<%= form_tag do %>
-   <h2>Please Log In</h2>
-   <div id="session">
-     <div class="field">
-       <%= label_tag :name, 'Name' %>
-       <%= text_field_tag :name, params[:name] %>
-     </div>
+<div id="session">
+  <%= form_tag do %>
+    <h2 class="title">Please Log In</h2>
+    <div class="fields">
+      <%= label_tag :name, 'Name'  %>
+      <br>
+      <%= text_field_tag :name, params[:name] %>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>      
+      <%= label_tag :password, 'Password' %>
+      <br>
+      <%= password_field_tag :password, params[:password] %>
+    </div>
 
-     <div class="field">
-       <%= label_tag :password, 'Password' %>
-       <%= password_field_tag :password, params[:password] %>
-     </div>
-
-     <div class="actions">
-       <%= submit_tag "Log in" %>
-     </div>
-   </div>
-<% end %>
+    <div class="actions">
+      <%= submit_tag "Log in" , class: "login"%>
+    </div>
+  <% end %>
+</div>
